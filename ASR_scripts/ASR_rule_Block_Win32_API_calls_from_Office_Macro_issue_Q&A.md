@@ -315,3 +315,9 @@ To mitigate the current data loss issue, customers need to take additional actio
 21.**What data is collected by Microsoft restoration script to measure the script effectiveness?**\
 The Microsoft restoration script collects and stores in the Windows registry the following data to evaluate the script effectiveness: the version of the restoration script, when it was run, the effectiveness of various methods, and the error message that script received if it fails.  This information will be analyzed by Microsoft to help improve the effectiveness of the tool.   To opt out of saving this information, run the script with the –Telemetry=$false option. 
 >
+
+22.**How to sign a PowerShell script**\
+If your organizational policy only allows running signed PowerShell scripts, reference the following article to sign your restoration scripts: 
+[about Signing - PowerShell]
+(https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_signing?view=powershell-7.3)
+>
