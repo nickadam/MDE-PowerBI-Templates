@@ -47,7 +47,7 @@ Param Verbose:
 
 #>
 
-param ([bool] $Telemetry = $true, [switch] $ForceRepair = $false, [switch] $VssRecovery = $true, [int] $Verbose = 1)
+param ([bool] $Telemetry = $false, [switch] $ForceRepair = $false, [switch] $VssRecovery = $true, [int] $Verbose = 1)
 
 $ScriptVersion = 2
 $ScriptVersionStr = "v" + $ScriptVersion.ToString()
